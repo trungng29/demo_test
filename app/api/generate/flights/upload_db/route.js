@@ -20,12 +20,19 @@ export async function POST(req) {
     return new Response("Unauthorized", { status: 401 });
   }
   try {
+    const searchParams = new URL(req.url).searchParams;
+    const rawDays = Number.parseInt(searchParams.get("days"), 10);
+    const days =
+      Number.isNaN(rawDays) || rawDays < 1
+        ? 10
+        : Math.min(rawDays, 30);
+
     console.log("Uploading flights DB...");
-    await uploadFlightsDB();
+    await uploadFlightsDB(days);
     console.log("Flights DB uploaded successfully.");
     return Response.json({
       success: true,
-      message: "Flights DB uploaded successfully.",
+      message: `Flights DB uploaded successfully for ${days} day(s).`,
     });
   } catch (error) {
     console.error("Error uploading flights DB:", error);
@@ -39,7 +46,7 @@ export async function POST(req) {
   }
 }
 
-async function uploadFlightsDB() {
+async function uploadFlightsDB(days = 10) {
   if (!process.env.MONGODB_URI) {
     throw new Error("MONGODB_URI not found in .env file.");
   }
@@ -50,7 +57,7 @@ async function uploadFlightsDB() {
   const airlineFlightPrices =
     await generateAirlineFlightPricesDB(primaryAirlinedata);
   const flight = await generateFlightsDB(
-    10,
+    days,
     airport,
     airplane,
     airline,
@@ -77,11 +84,24 @@ async function uploadFlightsDB() {
     FlightSeat: flightSeats,
   };
 
+  const batchSizeByModel = {
+    airport: 500,
+    airplane: 500,
+    airline: 500,
+    AirlineFlightPrice: 1000,
+    FlightItinerary: 500,
+    FlightSegment: 500,
+    FlightSeat: 1000,
+  };
+
   for (const [key, value] of Object.entries(data)) {
     await deleteManyDocs(key);
     console.log("deleted", key);
     // create
-    await createManyDocs(key, value);
+    await createManyDocs(key, value, {
+      batchSize: batchSizeByModel[key] || 500,
+      ordered: false,
+    });
     console.log("created", key);
   }
 

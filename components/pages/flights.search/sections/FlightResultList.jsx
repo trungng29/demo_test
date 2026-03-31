@@ -39,7 +39,7 @@ export function FlightResultList({
         <div className="mb-5 grid grid-cols-1 gap-[16px]">
           {data.slice(0, shownTill).map((item, i) => (
             <FlightResultCard
-              key={item._id}
+              key={item?._id?.toString?.() || `${item?.flightCode || "flight"}-${i}`}
               searchState={searchState}
               data={item}
               metaData={{ ...metaData, isBookmarked: item.isBookmarked }}

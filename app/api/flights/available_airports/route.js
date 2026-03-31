@@ -2,16 +2,17 @@ import { Airport } from "@/lib/db/models";
 
 export async function GET(req) {
   const searchParams = Object.fromEntries(new URL(req.url).searchParams);
-  const limit = searchParams?.limit || 10;
-  const searchQuery = searchParams?.searchQuery;
-
-  const airports = await Airport.find({})
-    .limit(limit)
-    .select("iataCode name city -_id")
-    .exec();
+  const rawLimit = Number.parseInt(searchParams?.limit, 10);
+  const limit = Number.isNaN(rawLimit) ? 10 : Math.max(rawLimit, 1);
+  const searchQuery = searchParams?.searchQuery?.trim();
 
   try {
-    if (!searchQuery || searchQuery.trim() === "") {
+    if (!searchQuery) {
+      const airports = await Airport.find({})
+        .limit(limit)
+        .select("iataCode name city -_id")
+        .exec();
+
       return Response.json({
         success: true,
         message: "Available airports fetched successfully",
@@ -19,15 +20,14 @@ export async function GET(req) {
       });
     }
 
-    const searchLower = searchQuery.toLowerCase().trim();
-
-    const filteredAirports = airports.filter((airport) => {
-      return (
-        airport.iataCode?.toLowerCase().includes(searchLower) ||
-        airport.name?.toLowerCase().includes(searchLower) ||
-        airport.city?.toLowerCase().includes(searchLower)
-      );
-    });
+    const escapedSearch = searchQuery.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(escapedSearch, "i");
+    const filteredAirports = await Airport.find({
+      $or: [{ iataCode: regex }, { name: regex }, { city: regex }],
+    })
+      .limit(limit)
+      .select("iataCode name city -_id")
+      .exec();
 
     return Response.json({
       success: true,
