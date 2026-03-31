@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Find Flights" [ref=e8] [cursor=pointer]:
+          - /url: /flights
+          - img [ref=e9]
+          - generic [ref=e11]: Find Flights
+        - link "Find Hotels" [ref=e12] [cursor=pointer]:
+          - /url: /hotels
+          - img [ref=e13]
+          - generic [ref=e15]: Find Hotels
+      - link "Golob logo. Click to go to home page" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e27]:
+        - link "Login" [ref=e28] [cursor=pointer]:
+          - /url: /user/login
+        - link "Signup" [ref=e29] [cursor=pointer]:
+          - /url: /user/signup
+    - main [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: Trip Type
+            - radiogroup [ref=e36]:
+              - generic [ref=e37]:
+                - radio "One Way" [checked] [ref=e38] [cursor=pointer]:
+                  - img [ref=e40]
+                - radio [checked]
+                - generic [ref=e42]: One Way
+              - generic [ref=e43]:
+                - radio "Round Trip" [disabled] [ref=e44]
+                - radio [disabled]
+                - generic [ref=e45]: Round Trip
+              - generic [ref=e46]:
+                - radio "Multi City" [disabled] [ref=e47]
+                - radio [disabled]
+                - generic [ref=e48]: Multi City
+          - generic [ref=e49]:
+            - generic [ref=e50]: From * - to *
+            - generic [ref=e51] [cursor=pointer]:
+              - generic [ref=e52]: London
+              - generic [ref=e53]: London Heathrow Airport
+            - button "swap airport names" [ref=e54] [cursor=pointer]
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: Atlanta
+              - generic [ref=e57]: Hartsfield-Jackson Atlanta International Airport
+          - generic [ref=e58]:
+            - generic [ref=e59]: Depart * - Return
+            - generic [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: 01 Apr 26
+              - generic [ref=e65]: Wednesday
+            - generic [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: DD MMM YY
+              - generic [ref=e71]: Weekday
+          - generic [ref=e72]:
+            - generic [ref=e73]: Passengers * - Class *
+            - generic [ref=e74]:
+              - generic [ref=e75]: 1 person
+              - generic [ref=e76]: Economy
+        - button "paper_plane_icon Show Flights" [ref=e78] [cursor=pointer]:
+          - img "paper_plane_icon" [ref=e79]
+          - generic [ref=e80]: Show Flights
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "Fliters" [level=2] [ref=e84] [cursor=pointer]
+          - button "reset filter" [ref=e85] [cursor=pointer]
+        - generic [ref=e87]:
+          - generic [ref=e89]:
+            - heading "Price" [level=3] [ref=e90]:
+              - button "Price" [expanded] [ref=e91] [cursor=pointer]:
+                - text: Price
+                - img [ref=e92]
+            - region "Price" [ref=e94]:
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - slider "Minimum" [ref=e101]
+                  - slider "Maximum" [ref=e103]
+                - generic [ref=e104]:
+                  - paragraph [ref=e105]: $704
+                  - paragraph [ref=e106]: $1108
+          - generic [ref=e108]:
+            - heading "Departure Time" [level=3] [ref=e109]:
+              - button "Departure Time" [expanded] [ref=e110] [cursor=pointer]:
+                - text: Departure Time
+                - img [ref=e111]
+            - region "Departure Time" [ref=e113]:
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - slider "Minimum" [ref=e120]
+                  - slider "Maximum" [ref=e122]
+                - generic [ref=e123]:
+                  - paragraph [ref=e124]: 12:00 am
+                  - paragraph [ref=e125]: 11:59 pm
+          - generic [ref=e127]:
+            - heading "Rating" [level=3] [ref=e128]:
+              - button "Rating" [expanded] [ref=e129] [cursor=pointer]:
+                - text: Rating
+                - img [ref=e130]
+            - region "Rating" [ref=e132]:
+              - group [ref=e134]:
+                - button "Toggle 1 star" [ref=e135] [cursor=pointer]: "+1"
+                - button "Toggle 2 star" [ref=e136] [cursor=pointer]: "+2"
+                - button "Toggle 3 star" [ref=e137] [cursor=pointer]: "+3"
+                - button "Toggle 4 star" [ref=e138] [cursor=pointer]: "+4"
+                - button "Toggle 5 star" [ref=e139] [cursor=pointer]: "+5"
+          - generic [ref=e141]:
+            - heading "Airlines" [level=3] [ref=e142]:
+              - button "Airlines" [expanded] [ref=e143] [cursor=pointer]:
+                - text: Airlines
+                - img [ref=e144]
+            - region "Airlines" [ref=e146]:
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - checkbox "Etihad" [ref=e150] [cursor=pointer]
+                  - generic [ref=e151]: Etihad
+                - generic [ref=e152]:
+                  - checkbox "Emirates" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]: Emirates
+                - generic [ref=e155]:
+                  - checkbox "Fly Dubai" [ref=e156] [cursor=pointer]
+                  - generic [ref=e157]: Fly Dubai
+          - button "Apply" [ref=e159] [cursor=pointer]
+    - contentinfo [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - heading "Subscribe Newsletter" [level=2] [ref=e221]
+          - heading "The Travel" [level=3] [ref=e222]
+          - paragraph [ref=e223]: Get inspired! Receive travel discounts, tips and behind the scenes stories.
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - paragraph
+              - textbox "Your email address" [ref=e228]
+              - paragraph
+            - button "Subscribe" [ref=e229] [cursor=pointer]
+        - img "mailbox" [ref=e231]
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - link "Golob logo. Click to go to home page" [ref=e235] [cursor=pointer]:
+            - /url: /
+            - img [ref=e236]
+          - generic [ref=e245]:
+            - link "Link to Facebook.com" [ref=e246] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img [ref=e247]
+            - link "Link to Twitter.com" [ref=e249] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img [ref=e250]
+            - link "Link to Youtube.com" [ref=e252] [cursor=pointer]:
+              - /url: https://www.youtube.com
+              - img [ref=e253]
+            - link "Link to Instagram.com" [ref=e256] [cursor=pointer]:
+              - /url: https://www.instagram.com
+              - img [ref=e257]
+        - generic [ref=e259]:
+          - generic [ref=e260]:
+            - heading "Our Destination" [level=3] [ref=e261]
+            - generic [ref=e262]:
+              - link "Link to Canada" [ref=e264] [cursor=pointer]:
+                - /url: /
+                - text: Canada
+              - link "Link to Alaska" [ref=e266] [cursor=pointer]:
+                - /url: "#"
+                - text: Alaska
+              - link "Link to France" [ref=e268] [cursor=pointer]:
+                - /url: "#"
+                - text: France
+              - link "Link to Iceland" [ref=e270] [cursor=pointer]:
+                - /url: "#"
+                - text: Iceland
+          - generic [ref=e271]:
+            - heading "Our Activity" [level=3] [ref=e272]
+            - generic [ref=e273]:
+              - link "Link to Northern Lights" [ref=e275] [cursor=pointer]:
+                - /url: "#"
+                - text: Northern Lights
+              - link "Link to Cruising & Sailing" [ref=e277] [cursor=pointer]:
+                - /url: "#"
+                - text: Cruising & Sailing
+              - link "Link to Multi-activities" [ref=e279] [cursor=pointer]:
+                - /url: "#"
+                - text: Multi-activities
+              - link "Link to Kayaing" [ref=e281] [cursor=pointer]:
+                - /url: "#"
+                - text: Kayaing
+          - generic [ref=e282]:
+            - heading "Travel Blogs" [level=3] [ref=e283]
+            - generic [ref=e284]:
+              - link "Link to Bali Travel Guide" [ref=e286] [cursor=pointer]:
+                - /url: "#"
+                - text: Bali Travel Guide
+              - link "Link to Srilanka Travel Guide" [ref=e288] [cursor=pointer]:
+                - /url: "#"
+                - text: Srilanka Travel Guide
+              - link "Link to Peru Travel Guide" [ref=e290] [cursor=pointer]:
+                - /url: "#"
+                - text: Peru Travel Guide
+          - generic [ref=e291]:
+            - heading "About Us" [level=3] [ref=e292]
+            - generic [ref=e293]:
+              - link "Link to Our Story" [ref=e295] [cursor=pointer]:
+                - /url: "#"
+                - text: Our Story
+              - link "Link to Work with Us" [ref=e297] [cursor=pointer]:
+                - /url: "#"
+                - text: Work with Us
+          - generic [ref=e298]:
+            - heading "Contact" [level=3] [ref=e299]
+            - link "Link to Contact Us" [ref=e302] [cursor=pointer]:
+              - /url: "#"
+              - text: Contact Us
+      - generic [ref=e303]:
+        - text: Developed by
+        - link "Link to Github of the developer" [ref=e304] [cursor=pointer]:
+          - /url: https://github.com/mojahidhasan
+          - text: Mojahid Hasan
+      - generic [ref=e305]:
+        - text: UI design taken from
+        - link "Link to Figma Community" [ref=e306] [cursor=pointer]:
+          - /url: https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website
+          - text: Figma Community
+  - region "Notifications alt+T"
+  - alert [ref=e307]

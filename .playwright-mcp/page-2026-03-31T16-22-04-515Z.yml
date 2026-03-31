@@ -1,0 +1,350 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Find Flights" [ref=e8] [cursor=pointer]:
+          - /url: /flights
+          - img [ref=e9]
+          - generic [ref=e11]: Find Flights
+        - link "Find Hotels" [ref=e12] [cursor=pointer]:
+          - /url: /hotels
+          - img [ref=e13]
+          - generic [ref=e15]: Find Hotels
+      - link "Golob logo. Click to go to home page" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e27]:
+        - button "Favourites" [ref=e28] [cursor=pointer]:
+          - link "Favourites" [ref=e29]:
+            - /url: /user/favourites
+            - img [ref=e30]
+            - generic [ref=e32]: Favourites
+        - button "Test Playwright" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e37]: Test Playwright
+    - main [ref=e38]:
+      - navigation "breadcrumb" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Home" [ref=e42] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e43]:
+            - img [ref=e44]
+          - listitem [ref=e46]:
+            - link "flights" [ref=e47] [cursor=pointer]:
+              - /url: /flights
+          - listitem [ref=e48]:
+            - img [ref=e49]
+          - listitem [ref=e51]:
+            - link "EK0835_1774987200000" [ref=e52] [cursor=pointer]:
+              - /url: /flights/EK0835_1774987200000
+          - listitem [ref=e53]:
+            - img [ref=e54]
+          - listitem [ref=e56]:
+            - link "book" [disabled] [ref=e57]
+      - generic [ref=e58]: "Session Timeout in: 17:14"
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic "Passengers" [ref=e62] [cursor=pointer]: "1"
+          - generic [ref=e64]: Passengers
+        - generic [ref=e65]:
+          - generic "Preferences" [ref=e67] [cursor=pointer]: "2"
+          - generic [ref=e69]: Preferences
+        - generic [ref=e70]:
+          - generic "Review" [ref=e72] [cursor=pointer]: "3"
+          - generic [ref=e74]: Review
+        - generic [ref=e75]:
+          - generic "Payment" [ref=e77] [cursor=pointer]: "4"
+          - generic [ref=e78]: Payment
+      - generic [ref=e79]:
+        - generic [ref=e957]:
+          - generic [ref=e958]:
+            - heading "Review Your Booking" [level=1] [ref=e960]
+            - button "Reserve & Pay" [ref=e961] [cursor=pointer]
+          - generic [ref=e962]:
+            - heading "Flight Details" [level=3] [ref=e963]
+            - generic [ref=e965]:
+              - generic [ref=e966]:
+                - paragraph [ref=e967]: Flight Number
+                - paragraph [ref=e968]: EK0835-1
+              - generic [ref=e969]:
+                - paragraph [ref=e970]: Airline
+                - paragraph [ref=e971]: Emirates
+              - generic [ref=e972]:
+                - paragraph [ref=e973]: Departure
+                - generic [ref=e974]: Wed, Apr 1, 2026
+                - paragraph [ref=e975]: London Heathrow Airport - Terminal 1
+              - generic [ref=e976]:
+                - paragraph [ref=e977]: Arrival
+                - generic [ref=e978]: Wed, Apr 1, 2026
+                - paragraph [ref=e979]: Hartsfield-Jackson Atlanta International Airport - Terminal 1
+          - generic [ref=e980]:
+            - generic [ref=e981]:
+              - heading "Passenger Details" [level=3] [ref=e982]
+              - button "Edit Details" [ref=e983] [cursor=pointer]
+            - generic [ref=e984]:
+              - heading "Adult-1" [level=2] [ref=e985]
+              - generic [ref=e986]:
+                - heading "Details" [level=4] [ref=e987]
+                - generic [ref=e988]:
+                  - generic [ref=e989]:
+                    - paragraph [ref=e990]: passenger Type
+                    - paragraph [ref=e991]: Adult
+                  - generic [ref=e992]:
+                    - paragraph [ref=e993]: title
+                    - paragraph [ref=e994]: N/A
+                  - generic [ref=e995]:
+                    - paragraph [ref=e996]: first Name
+                    - paragraph [ref=e997]: Test
+                  - generic [ref=e998]:
+                    - paragraph [ref=e999]: last Name
+                    - paragraph [ref=e1000]: Playwright
+                  - generic [ref=e1001]:
+                    - paragraph [ref=e1002]: date Of Birth
+                    - paragraph [ref=e1003]: 1990-01-15
+                  - generic [ref=e1004]:
+                    - paragraph [ref=e1005]: passport Number
+                    - paragraph [ref=e1006]: A12345678
+                  - generic [ref=e1007]:
+                    - paragraph [ref=e1008]: passport Expiry Date
+                    - paragraph [ref=e1009]: 2029-01-15
+                  - generic [ref=e1010]:
+                    - paragraph [ref=e1011]: gender
+                    - paragraph [ref=e1012]: male
+                  - generic [ref=e1013]:
+                    - paragraph [ref=e1014]: country
+                    - paragraph [ref=e1015]: United Kingdom
+                  - generic [ref=e1016]:
+                    - paragraph [ref=e1017]: frequent Flyer Number
+                    - paragraph [ref=e1018]: N/A
+                  - generic [ref=e1019]:
+                    - paragraph [ref=e1020]: frequent Flyer Airline
+                    - paragraph [ref=e1021]: N/A
+                  - generic [ref=e1022]:
+                    - paragraph [ref=e1023]: phone Number
+                    - paragraph [ref=e1024]: +358 5551234567
+                  - generic [ref=e1025]:
+                    - paragraph [ref=e1026]: email
+                    - paragraph [ref=e1027]: playwright.test@golobe.local
+              - generic [ref=e1028]:
+                - heading "Preferences" [level=4] [ref=e1029]
+                - generic [ref=e1030]:
+                  - generic [ref=e1031]:
+                    - paragraph [ref=e1032]: seating
+                    - generic [ref=e1033]:
+                      - generic [ref=e1034]:
+                        - paragraph [ref=e1035]: "position :"
+                        - paragraph [ref=e1036]: any
+                      - generic [ref=e1037]:
+                        - paragraph [ref=e1038]: "location :"
+                        - paragraph [ref=e1039]: any
+                      - generic [ref=e1040]:
+                        - paragraph [ref=e1041]: "legroom :"
+                        - paragraph [ref=e1042]: none
+                      - generic [ref=e1043]:
+                        - paragraph [ref=e1044]: "quiet Zone :"
+                        - paragraph [ref=e1045]: "No"
+                      - generic [ref=e1046]:
+                        - paragraph [ref=e1047]: "near Lavatory :"
+                        - paragraph [ref=e1048]: N/A
+                  - generic [ref=e1049]:
+                    - paragraph [ref=e1050]: baggage
+                    - generic [ref=e1051]:
+                      - generic [ref=e1052]:
+                        - paragraph [ref=e1053]: "type :"
+                        - paragraph [ref=e1054]: any
+                      - generic [ref=e1055]:
+                        - paragraph [ref=e1056]: "extra Allowance :"
+                        - paragraph [ref=e1057]: "No"
+                      - generic [ref=e1058]:
+                        - paragraph [ref=e1059]: "special Handling :"
+                        - paragraph [ref=e1060]: "No"
+                  - generic [ref=e1061]:
+                    - paragraph [ref=e1062]: meal
+                    - generic [ref=e1063]:
+                      - generic [ref=e1064]:
+                        - paragraph [ref=e1065]: "type :"
+                        - paragraph [ref=e1066]: standard
+                      - generic [ref=e1067]:
+                        - paragraph [ref=e1068]: "special Meal Type :"
+                        - paragraph [ref=e1069]: N/A
+                  - generic [ref=e1070]:
+                    - paragraph [ref=e1071]: special Assistance
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]:
+                        - paragraph [ref=e1074]: "wheelchair :"
+                        - paragraph [ref=e1075]: "No"
+                      - generic [ref=e1076]:
+                        - paragraph [ref=e1077]: "boarding :"
+                        - paragraph [ref=e1078]: "No"
+                      - generic [ref=e1079]:
+                        - paragraph [ref=e1080]: "elderly Infant :"
+                        - paragraph [ref=e1081]: "No"
+                      - generic [ref=e1082]:
+                        - paragraph [ref=e1083]: "medical Equipment :"
+                        - paragraph [ref=e1084]: "No"
+                  - generic [ref=e1085]:
+                    - paragraph [ref=e1086]: other
+                    - generic [ref=e1087]:
+                      - generic [ref=e1088]:
+                        - paragraph [ref=e1089]: "entertainment :"
+                        - paragraph [ref=e1090]: "No"
+                      - generic [ref=e1091]:
+                        - paragraph [ref=e1092]: "wifi :"
+                        - paragraph [ref=e1093]: "No"
+                      - generic [ref=e1094]:
+                        - paragraph [ref=e1095]: "power Outlet :"
+                        - paragraph [ref=e1096]: "No"
+          - generic [ref=e1097]:
+            - heading "Contact Information" [level=3] [ref=e1098]
+            - generic [ref=e1099]:
+              - generic [ref=e1100]:
+                - paragraph [ref=e1101]: Email
+                - paragraph [ref=e1102]: playwright.test@golobe.local
+              - generic [ref=e1103]:
+                - paragraph [ref=e1104]: Phone
+                - paragraph [ref=e1105]: +358 5551234567
+        - generic [ref=e173]:
+          - heading "Fare Summary" [level=3] [ref=e174]
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: "Passenger Type: Adult"
+              - generic [ref=e180]:
+                - heading "1 traveler" [level=3] [ref=e181]:
+                  - button "1 traveler" [expanded] [ref=e182] [cursor=pointer]:
+                    - generic [ref=e183]: 1 traveler
+                    - img [ref=e184]
+                - region "1 traveler" [ref=e186]:
+                  - generic [ref=e188]:
+                    - generic [ref=e189]:
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: Base Fare
+                        - generic [ref=e192]:
+                          - paragraph [ref=e193]: $796.58
+                          - paragraph [ref=e194]: (1 × $796.58)
+                      - generic [ref=e195]:
+                        - generic [ref=e196]: Tax
+                        - generic [ref=e197]:
+                          - paragraph [ref=e198]: $79.66
+                          - paragraph [ref=e199]: (1 × $79.66)
+                      - generic [ref=e200]:
+                        - generic [ref=e201]: Service Fee
+                        - generic [ref=e202]:
+                          - paragraph [ref=e203]: $15.93
+                          - paragraph [ref=e204]: (1 × $15.93)
+                      - generic [ref=e205]:
+                        - generic [ref=e206]: Discount
+                        - generic [ref=e207]:
+                          - paragraph [ref=e208]: $187.36
+                          - paragraph [ref=e209]: (1 × $187.36)
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: Subtotal
+                      - generic [ref=e212]: $704.81
+            - generic [ref=e213]:
+              - generic [ref=e214]: Total
+              - generic [ref=e215]: $704.81
+    - contentinfo [ref=e216]:
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - heading "Subscribe Newsletter" [level=2] [ref=e219]
+          - heading "The Travel" [level=3] [ref=e220]
+          - paragraph [ref=e221]: Get inspired! Receive travel discounts, tips and behind the scenes stories.
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - paragraph
+              - textbox "Your email address" [ref=e226]
+              - paragraph
+            - button "Subscribe" [ref=e227] [cursor=pointer]
+        - img "mailbox" [ref=e229]
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - link "Golob logo. Click to go to home page" [ref=e233] [cursor=pointer]:
+            - /url: /
+            - img [ref=e234]
+          - generic [ref=e243]:
+            - link "Link to Facebook.com" [ref=e244] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img [ref=e245]
+            - link "Link to Twitter.com" [ref=e247] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img [ref=e248]
+            - link "Link to Youtube.com" [ref=e250] [cursor=pointer]:
+              - /url: https://www.youtube.com
+              - img [ref=e251]
+            - link "Link to Instagram.com" [ref=e254] [cursor=pointer]:
+              - /url: https://www.instagram.com
+              - img [ref=e255]
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - heading "Our Destination" [level=3] [ref=e259]
+            - generic [ref=e260]:
+              - link "Link to Canada" [ref=e262] [cursor=pointer]:
+                - /url: /
+                - text: Canada
+              - link "Link to Alaska" [ref=e264] [cursor=pointer]:
+                - /url: "#"
+                - text: Alaska
+              - link "Link to France" [ref=e266] [cursor=pointer]:
+                - /url: "#"
+                - text: France
+              - link "Link to Iceland" [ref=e268] [cursor=pointer]:
+                - /url: "#"
+                - text: Iceland
+          - generic [ref=e269]:
+            - heading "Our Activity" [level=3] [ref=e270]
+            - generic [ref=e271]:
+              - link "Link to Northern Lights" [ref=e273] [cursor=pointer]:
+                - /url: "#"
+                - text: Northern Lights
+              - link "Link to Cruising & Sailing" [ref=e275] [cursor=pointer]:
+                - /url: "#"
+                - text: Cruising & Sailing
+              - link "Link to Multi-activities" [ref=e277] [cursor=pointer]:
+                - /url: "#"
+                - text: Multi-activities
+              - link "Link to Kayaing" [ref=e279] [cursor=pointer]:
+                - /url: "#"
+                - text: Kayaing
+          - generic [ref=e280]:
+            - heading "Travel Blogs" [level=3] [ref=e281]
+            - generic [ref=e282]:
+              - link "Link to Bali Travel Guide" [ref=e284] [cursor=pointer]:
+                - /url: "#"
+                - text: Bali Travel Guide
+              - link "Link to Srilanka Travel Guide" [ref=e286] [cursor=pointer]:
+                - /url: "#"
+                - text: Srilanka Travel Guide
+              - link "Link to Peru Travel Guide" [ref=e288] [cursor=pointer]:
+                - /url: "#"
+                - text: Peru Travel Guide
+          - generic [ref=e289]:
+            - heading "About Us" [level=3] [ref=e290]
+            - generic [ref=e291]:
+              - link "Link to Our Story" [ref=e293] [cursor=pointer]:
+                - /url: "#"
+                - text: Our Story
+              - link "Link to Work with Us" [ref=e295] [cursor=pointer]:
+                - /url: "#"
+                - text: Work with Us
+          - generic [ref=e296]:
+            - heading "Contact" [level=3] [ref=e297]
+            - link "Link to Contact Us" [ref=e300] [cursor=pointer]:
+              - /url: "#"
+              - text: Contact Us
+      - generic [ref=e301]:
+        - text: Developed by
+        - link "Link to Github of the developer" [ref=e302] [cursor=pointer]:
+          - /url: https://github.com/mojahidhasan
+          - text: Mojahid Hasan
+      - generic [ref=e303]:
+        - text: UI design taken from
+        - link "Link to Figma Community" [ref=e304] [cursor=pointer]:
+          - /url: https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website
+          - text: Figma Community
+  - region "Notifications alt+T"
+  - alert [ref=e305]

@@ -1,0 +1,295 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e263]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e264] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - banner [ref=e3]:
+      - navigation [ref=e4]:
+        - generic [ref=e5]:
+          - link "Find Flights" [ref=e6] [cursor=pointer]:
+            - /url: /flights
+            - img [ref=e7]
+            - generic [ref=e9]: Find Flights
+          - link "Find Hotels" [ref=e10] [cursor=pointer]:
+            - /url: /hotels
+            - img [ref=e11]
+            - generic [ref=e13]: Find Hotels
+        - link "Golob logo. Click to go to home page" [ref=e15] [cursor=pointer]:
+          - /url: /
+          - img [ref=e16]
+        - generic [ref=e25]:
+          - link "Login" [ref=e26] [cursor=pointer]:
+            - /url: /user/login
+          - link "Signup" [ref=e27] [cursor=pointer]:
+            - /url: /user/signup
+      - generic [ref=e28]:
+        - img "home-header" [ref=e29]
+        - generic [ref=e30]:
+          - heading "Helping Others" [level=2] [ref=e31]
+          - heading "Live & Travel" [level=1] [ref=e32]
+          - paragraph [ref=e33]: Special offers to suit your plan
+      - generic [ref=e35]:
+        - tablist [ref=e36]:
+          - tab "airplane_icon Flights" [selected] [ref=e37] [cursor=pointer]:
+            - img "airplane_icon" [ref=e38]
+            - generic [ref=e39]: Flights
+          - tab "bed_icon Stays" [ref=e40] [cursor=pointer]:
+            - img "bed_icon" [ref=e41]
+            - generic [ref=e42]: Stays
+        - tabpanel "airplane_icon Flights" [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: Trip Type
+                - radiogroup [ref=e269]:
+                  - generic [ref=e270]:
+                    - radio "One Way" [checked] [ref=e271] [cursor=pointer]:
+                      - img [ref=e273]
+                    - radio [checked]
+                    - generic [ref=e275]: One Way
+                  - generic [ref=e276]:
+                    - radio "Round Trip" [disabled] [ref=e277]
+                    - radio [disabled]
+                    - generic [ref=e278]: Round Trip
+                  - generic [ref=e279]:
+                    - radio "Multi City" [disabled] [ref=e280]
+                    - radio [disabled]
+                    - generic [ref=e281]: Multi City
+              - generic [ref=e61]:
+                - generic [ref=e62]: From * - to *
+                - generic [ref=e63] [cursor=pointer]:
+                  - generic [ref=e282]: City
+                  - generic [ref=e283]: Airport name
+                - button "swap airport names" [ref=e66] [cursor=pointer]
+                - generic [ref=e67] [cursor=pointer]:
+                  - generic [ref=e284]: City
+                  - generic [ref=e285]: Airport name
+              - generic [ref=e70]:
+                - generic [ref=e71]: Depart * - Return
+                - generic [ref=e75] [cursor=pointer]:
+                  - generic [ref=e286]: DD MMM YY
+                  - generic [ref=e287]: Weekday
+                - generic [ref=e81] [cursor=pointer]:
+                  - generic [ref=e288]: DD MMM YY
+                  - generic [ref=e289]: Weekday
+              - generic [ref=e84]:
+                - generic [ref=e85]: Passengers * - Class *
+                - generic [ref=e86]:
+                  - generic [ref=e290]: 1 person
+                  - generic [ref=e291]: Economy
+            - button "paper_plane_icon Show Flights" [ref=e90] [cursor=pointer]:
+              - img "paper_plane_icon" [ref=e91]
+              - generic [ref=e92]: Show Flights
+    - main [ref=e93]:
+      - generic [ref=e96]:
+        - heading "Popular Flight Destinations" [level=2] [ref=e97]
+        - paragraph [ref=e98]: Explore the world's most sought-after destinations with competitive prices
+      - generic [ref=e101]:
+        - heading "Popular Hotel Destinations" [level=2] [ref=e102]
+        - paragraph [ref=e103]: Explore the most sought-after destinations for hotel stays. From tropical beaches to urban centers, discover where travelers love to stay.
+      - generic [ref=e104]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - heading "Flights" [level=3] [ref=e109]
+            - paragraph [ref=e110]: Search Flights & Places Hire to our most popular destinations
+          - link "papar_plane_icon Find Flights" [ref=e112] [cursor=pointer]:
+            - /url: /flights
+            - img "papar_plane_icon" [ref=e113]
+            - generic [ref=e114]: Find Flights
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - heading "Hotels" [level=3] [ref=e119]
+            - paragraph [ref=e120]: Search Flights & Places Hire to our most popular destinations
+          - link "papar_plane_icon Find Hotels" [ref=e122] [cursor=pointer]:
+            - /url: /hotels
+            - img "papar_plane_icon" [ref=e123]
+            - generic [ref=e124]: Find Hotels
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - heading "Customer Reviews" [level=2] [ref=e130]
+          - paragraph [ref=e131]: Discover what our valued customers say about their Golobe experience
+        - generic [ref=e132]:
+          - generic [ref=e135]:
+            - img [ref=e138]
+            - generic [ref=e140]: N/A
+            - generic [ref=e141]: Average Rating
+          - generic [ref=e144]:
+            - img [ref=e147]
+            - generic [ref=e152]: N/A
+            - generic [ref=e153]: Satisfied Customers
+          - generic [ref=e156]:
+            - img [ref=e159]
+            - generic [ref=e162]: N/A
+            - generic [ref=e163]: Satisfaction Rate
+          - generic [ref=e166]:
+            - img [ref=e169]
+            - generic [ref=e172]: N/A
+            - generic [ref=e173]: 5-Star Reviews
+    - contentinfo [ref=e174]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - heading "Subscribe Newsletter" [level=2] [ref=e177]
+          - heading "The Travel" [level=3] [ref=e178]
+          - paragraph [ref=e179]: Get inspired! Receive travel discounts, tips and behind the scenes stories.
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - paragraph
+              - textbox "Your email address" [ref=e184]
+              - paragraph
+            - button "Subscribe" [ref=e185] [cursor=pointer]
+        - img "mailbox" [ref=e187]
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - link "Golob logo. Click to go to home page" [ref=e190] [cursor=pointer]:
+            - /url: /
+            - img [ref=e191]
+          - generic [ref=e200]:
+            - link "Link to Facebook.com" [ref=e201] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img [ref=e202]
+            - link "Link to Twitter.com" [ref=e204] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img [ref=e205]
+            - link "Link to Youtube.com" [ref=e207] [cursor=pointer]:
+              - /url: https://www.youtube.com
+              - img [ref=e208]
+            - link "Link to Instagram.com" [ref=e211] [cursor=pointer]:
+              - /url: https://www.instagram.com
+              - img [ref=e212]
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - heading "Our Destination" [level=3] [ref=e216]
+            - generic [ref=e217]:
+              - link "Link to Canada" [ref=e219] [cursor=pointer]:
+                - /url: /
+                - text: Canada
+              - link "Link to Alaska" [ref=e221] [cursor=pointer]:
+                - /url: "#"
+                - text: Alaska
+              - link "Link to France" [ref=e223] [cursor=pointer]:
+                - /url: "#"
+                - text: France
+              - link "Link to Iceland" [ref=e225] [cursor=pointer]:
+                - /url: "#"
+                - text: Iceland
+          - generic [ref=e226]:
+            - heading "Our Activity" [level=3] [ref=e227]
+            - generic [ref=e228]:
+              - link "Link to Northern Lights" [ref=e230] [cursor=pointer]:
+                - /url: "#"
+                - text: Northern Lights
+              - link "Link to Cruising & Sailing" [ref=e232] [cursor=pointer]:
+                - /url: "#"
+                - text: Cruising & Sailing
+              - link "Link to Multi-activities" [ref=e234] [cursor=pointer]:
+                - /url: "#"
+                - text: Multi-activities
+              - link "Link to Kayaing" [ref=e236] [cursor=pointer]:
+                - /url: "#"
+                - text: Kayaing
+          - generic [ref=e237]:
+            - heading "Travel Blogs" [level=3] [ref=e238]
+            - generic [ref=e239]:
+              - link "Link to Bali Travel Guide" [ref=e241] [cursor=pointer]:
+                - /url: "#"
+                - text: Bali Travel Guide
+              - link "Link to Srilanka Travel Guide" [ref=e243] [cursor=pointer]:
+                - /url: "#"
+                - text: Srilanka Travel Guide
+              - link "Link to Peru Travel Guide" [ref=e245] [cursor=pointer]:
+                - /url: "#"
+                - text: Peru Travel Guide
+          - generic [ref=e246]:
+            - heading "About Us" [level=3] [ref=e247]
+            - generic [ref=e248]:
+              - link "Link to Our Story" [ref=e250] [cursor=pointer]:
+                - /url: "#"
+                - text: Our Story
+              - link "Link to Work with Us" [ref=e252] [cursor=pointer]:
+                - /url: "#"
+                - text: Work with Us
+          - generic [ref=e253]:
+            - heading "Contact" [level=3] [ref=e254]
+            - link "Link to Contact Us" [ref=e257] [cursor=pointer]:
+              - /url: "#"
+              - text: Contact Us
+      - generic [ref=e258]:
+        - text: Developed by
+        - link "Link to Github of the developer" [ref=e259] [cursor=pointer]:
+          - /url: https://github.com/mojahidhasan
+          - text: Mojahid Hasan
+      - generic [ref=e260]:
+        - text: UI design taken from
+        - link "Link to Figma Community" [ref=e261] [cursor=pointer]:
+          - /url: https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website
+          - text: Figma Community
+  - region "Notifications alt+T"
+  - alert [ref=e293]
+  - dialog [ref=e295]:
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - img "search_icon" [ref=e299]
+        - textbox "Search..." [active] [ref=e300]
+      - generic [ref=e301]:
+        - generic [ref=e302] [cursor=pointer]:
+          - img "location_icon" [ref=e304]
+          - generic [ref=e305]:
+            - generic [ref=e306]: Atlanta
+            - generic [ref=e307]: Hartsfield-Jackson Atlanta International Airport
+          - generic [ref=e309]: ATL
+        - generic [ref=e310] [cursor=pointer]:
+          - img "location_icon" [ref=e312]
+          - generic [ref=e313]:
+            - generic [ref=e314]: Dubai
+            - generic [ref=e315]: Dubai International Airport
+          - generic [ref=e317]: DXB
+        - generic [ref=e318] [cursor=pointer]:
+          - img "location_icon" [ref=e320]
+          - generic [ref=e321]:
+            - generic [ref=e322]: London
+            - generic [ref=e323]: London Heathrow Airport
+          - generic [ref=e325]: LHR
+        - generic [ref=e326] [cursor=pointer]:
+          - img "location_icon" [ref=e328]
+          - generic [ref=e329]:
+            - generic [ref=e330]: Tokyo
+            - generic [ref=e331]: Tokyo Haneda International Airport
+          - generic [ref=e333]: HND
+        - generic [ref=e334] [cursor=pointer]:
+          - img "location_icon" [ref=e336]
+          - generic [ref=e337]:
+            - generic [ref=e338]: Istanbul
+            - generic [ref=e339]: Istanbul Airport
+          - generic [ref=e341]: IST
+        - generic [ref=e342] [cursor=pointer]:
+          - img "location_icon" [ref=e344]
+          - generic [ref=e345]:
+            - generic [ref=e346]: Delhi
+            - generic [ref=e347]: Indira Gandhi International Airport
+          - generic [ref=e349]: DEL
+        - generic [ref=e350] [cursor=pointer]:
+          - img "location_icon" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Guangzhou
+            - generic [ref=e355]: Guangzhou Baiyun International Airport
+          - generic [ref=e357]: CAN
+        - generic [ref=e358] [cursor=pointer]:
+          - img "location_icon" [ref=e360]
+          - generic [ref=e361]:
+            - generic [ref=e362]: Jakarta
+            - generic [ref=e363]: Soekarno-Hatta International Airport
+          - generic [ref=e365]: CGK
+        - generic [ref=e366] [cursor=pointer]:
+          - img "location_icon" [ref=e368]
+          - generic [ref=e369]:
+            - generic [ref=e370]: Toronto
+            - generic [ref=e371]: Lester B. Pearson International Airport
+          - generic [ref=e373]: YYZ
+        - generic [ref=e374] [cursor=pointer]:
+          - img "location_icon" [ref=e376]
+          - generic [ref=e377]:
+            - generic [ref=e378]: São Paulo
+            - generic [ref=e379]: São Paulo–Guarulhos International Airport
+          - generic [ref=e381]: GRU

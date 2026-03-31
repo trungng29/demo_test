@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e14]:
+    - link "Golob logo. Click to go to home page" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img [ref=e17]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Login" [level=2] [ref=e28]
+        - paragraph [ref=e29]: Login to access your Golobe account
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Email
+            - textbox "Enter your email" [ref=e35]
+            - paragraph
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: Password
+            - generic [ref=e38]:
+              - textbox "Enter your password" [ref=e39]
+              - button "eye_on_off_icon" [ref=e41] [cursor=pointer]:
+                - img "eye_on_off_icon" [ref=e42]
+            - paragraph
+          - link "Forgot Password" [ref=e45] [cursor=pointer]:
+            - /url: /user/forgot-password
+          - button "Login" [ref=e46] [cursor=pointer]
+          - generic [ref=e47]:
+            - text: Don't have an account?
+            - link "Signup" [ref=e48] [cursor=pointer]:
+              - /url: /user/signup
+        - generic [ref=e50]: Or Login With
+        - generic [ref=e51]:
+          - button "facebook_icon" [ref=e53] [cursor=pointer]:
+            - img "facebook_icon" [ref=e54]
+          - button "google_icon" [ref=e56] [cursor=pointer]:
+            - img "google_icon" [ref=e57]
+          - button "apple_icon" [ref=e58] [cursor=pointer]:
+            - img "apple_icon" [ref=e59]
+  - region "Notifications alt+T"

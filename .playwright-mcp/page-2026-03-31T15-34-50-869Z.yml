@@ -1,0 +1,5 @@
+- generic [ref=e66] [cursor=pointer]:
+  - img [ref=e67]
+  - generic [ref=e69]: 1 error
+  - button "Hide Errors" [ref=e70]:
+    - img [ref=e71]

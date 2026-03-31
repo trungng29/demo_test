@@ -1,0 +1,534 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Find Flights" [ref=e8] [cursor=pointer]:
+          - /url: /flights
+          - img [ref=e9]
+          - generic [ref=e11]: Find Flights
+        - link "Find Hotels" [ref=e12] [cursor=pointer]:
+          - /url: /hotels
+          - img [ref=e13]
+          - generic [ref=e15]: Find Hotels
+      - link "Golob logo. Click to go to home page" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e27]:
+        - button "Favourites" [ref=e28] [cursor=pointer]:
+          - link "Favourites" [ref=e29]:
+            - /url: /user/favourites
+            - img [ref=e30]
+            - generic [ref=e32]: Favourites
+        - button "Test Playwright" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e37]: Test Playwright
+    - main [ref=e38]:
+      - navigation "breadcrumb" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Home" [ref=e42] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e43]:
+            - img [ref=e44]
+          - listitem [ref=e46]:
+            - link "flights" [ref=e47] [cursor=pointer]:
+              - /url: /flights
+          - listitem [ref=e48]:
+            - img [ref=e49]
+          - listitem [ref=e51]:
+            - link "EK0835_1774987200000" [ref=e52] [cursor=pointer]:
+              - /url: /flights/EK0835_1774987200000
+          - listitem [ref=e53]:
+            - img [ref=e54]
+          - listitem [ref=e56]:
+            - link "book" [disabled] [ref=e57]
+      - generic [ref=e58]: "Session Timeout in: 19:51"
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic "Passengers" [ref=e62] [cursor=pointer]: "1"
+          - generic [ref=e64]: Passengers
+        - generic [ref=e65]:
+          - generic "Preferences" [ref=e67] [cursor=pointer]: "2"
+          - generic [ref=e69]: Preferences
+        - generic [ref=e70]:
+          - generic "Review" [ref=e72] [cursor=pointer]: "3"
+          - generic [ref=e74]: Review
+        - generic [ref=e75]:
+          - generic "Payment" [ref=e77] [cursor=pointer]: "4"
+          - generic [ref=e78]: Payment
+      - generic [ref=e79]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - heading "Enter Passenger Details" [level=3] [ref=e83]
+            - button "Continue" [ref=e84] [cursor=pointer]
+          - generic [ref=e86]:
+            - heading "Traveler 1 ( Adult ) ( Primary )" [level=3] [ref=e87]:
+              - button "Traveler 1 ( Adult ) ( Primary )" [expanded] [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: Traveler 1 ( Adult ) ( Primary )
+                - img [ref=e90]
+            - region "Traveler 1 ( Adult ) ( Primary )" [ref=e92]:
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - paragraph [ref=e96]: First Name *
+                  - textbox "Enter your first name" [ref=e98]: Test
+                  - paragraph
+                - generic [ref=e99]:
+                  - paragraph [ref=e100]: Last Name *
+                  - textbox "Enter your last name" [ref=e102]: Playwright
+                  - paragraph
+                - generic [ref=e103]:
+                  - paragraph [ref=e104]: Date of Birth *
+                  - button "15 Jan 1990 calendar_icon" [ref=e419] [cursor=pointer]:
+                    - text: 15 Jan 1990
+                    - img "calendar_icon" [ref=e110]
+                  - paragraph
+                - generic [ref=e111]:
+                  - paragraph [ref=e112]: Passport Number *
+                  - textbox "Passport Number" [ref=e114]: A12345678
+                  - paragraph
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - paragraph [ref=e117]: Passport Expiry Date *
+                    - button "15 Jan 2029 calendar_icon" [ref=e569] [cursor=pointer]:
+                      - text: 15 Jan 2029
+                      - img "calendar_icon" [ref=e123]
+                    - paragraph
+                  - paragraph [ref=e124]: "Note: Passport must be valid for at least 6 months from the date of departure"
+                - generic [ref=e125]:
+                  - generic [ref=e126]: Country
+                  - button "select country" [active] [ref=e127] [cursor=pointer]:
+                    - generic [ref=e128]: select country
+                    - img [ref=e129]
+                  - paragraph
+                - generic [ref=e131]:
+                  - paragraph [ref=e132]: Gender
+                  - radiogroup [ref=e133]:
+                    - generic [ref=e134]:
+                      - radio "Male" [checked] [ref=e135] [cursor=pointer]:
+                        - img [ref=e309]
+                      - radio [checked]
+                      - paragraph [ref=e136]: Male
+                    - generic [ref=e137]:
+                      - radio "Female" [ref=e138] [cursor=pointer]
+                      - radio
+                      - paragraph [ref=e139]: Female
+                - generic [ref=e140]:
+                  - heading "Frequent Flyer" [level=3] [ref=e141]
+                  - generic [ref=e142]:
+                    - paragraph [ref=e143]: Frequent Flyer Airline(If Any)
+                    - textbox "Frequent Flyer Airline" [ref=e145]
+                    - paragraph
+                  - generic [ref=e146]:
+                    - paragraph [ref=e147]: Frequent Flyer Name
+                    - textbox "Frequent Flyer Name" [ref=e149]
+                    - paragraph
+                - generic [ref=e150]:
+                  - heading "Contacts" [level=3] [ref=e151]
+                  - generic [ref=e152]:
+                    - paragraph [ref=e153]: Email *
+                    - textbox "Email" [disabled] [ref=e155]: playwright.test@golobe.local
+                    - paragraph
+                  - generic [ref=e156]:
+                    - paragraph [ref=e157]: Phone Number *
+                    - generic [ref=e159]:
+                      - button "🇦🇽 +358" [ref=e160] [cursor=pointer]:
+                        - generic [ref=e162]: 🇦🇽 +358
+                        - img [ref=e163]
+                      - textbox "Phone Number" [ref=e165]: "5551234567"
+                    - paragraph
+                - generic [ref=e167]:
+                  - checkbox "Save my details" [ref=e168] [cursor=pointer]
+                  - checkbox
+                  - paragraph [ref=e170]: Save my details
+          - button "Continue" [ref=e171] [cursor=pointer]
+        - generic [ref=e173]:
+          - heading "Fare Summary" [level=3] [ref=e174]
+          - generic [ref=e176]:
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: "Passenger Type: Adult"
+              - generic [ref=e272]:
+                - heading "1 traveler" [level=3] [ref=e273]:
+                  - button "1 traveler" [expanded] [ref=e274] [cursor=pointer]:
+                    - generic [ref=e275]: 1 traveler
+                    - img [ref=e276]
+                - region "1 traveler" [ref=e278]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]:
+                      - generic [ref=e282]:
+                        - generic [ref=e283]: Base Fare
+                        - generic [ref=e284]:
+                          - paragraph [ref=e285]: $796.58
+                          - paragraph [ref=e286]: (1 × $796.58)
+                      - generic [ref=e287]:
+                        - generic [ref=e288]: Tax
+                        - generic [ref=e289]:
+                          - paragraph [ref=e290]: $79.66
+                          - paragraph [ref=e291]: (1 × $79.66)
+                      - generic [ref=e292]:
+                        - generic [ref=e293]: Service Fee
+                        - generic [ref=e294]:
+                          - paragraph [ref=e295]: $15.93
+                          - paragraph [ref=e296]: (1 × $15.93)
+                      - generic [ref=e297]:
+                        - generic [ref=e298]: Discount
+                        - generic [ref=e299]:
+                          - paragraph [ref=e300]: $187.36
+                          - paragraph [ref=e301]: (1 × $187.36)
+                    - generic [ref=e302]:
+                      - generic [ref=e303]: Subtotal
+                      - generic [ref=e304]: $704.81
+            - generic [ref=e305]:
+              - generic [ref=e306]: Total
+              - generic [ref=e307]: $704.81
+    - contentinfo [ref=e179]:
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - heading "Subscribe Newsletter" [level=2] [ref=e182]
+          - heading "The Travel" [level=3] [ref=e183]
+          - paragraph [ref=e184]: Get inspired! Receive travel discounts, tips and behind the scenes stories.
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - paragraph
+              - textbox "Your email address" [ref=e189]
+              - paragraph
+            - button "Subscribe" [ref=e190] [cursor=pointer]
+        - img "mailbox" [ref=e192]
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - link "Golob logo. Click to go to home page" [ref=e196] [cursor=pointer]:
+            - /url: /
+            - img [ref=e197]
+          - generic [ref=e206]:
+            - link "Link to Facebook.com" [ref=e207] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img [ref=e208]
+            - link "Link to Twitter.com" [ref=e210] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img [ref=e211]
+            - link "Link to Youtube.com" [ref=e213] [cursor=pointer]:
+              - /url: https://www.youtube.com
+              - img [ref=e214]
+            - link "Link to Instagram.com" [ref=e217] [cursor=pointer]:
+              - /url: https://www.instagram.com
+              - img [ref=e218]
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - heading "Our Destination" [level=3] [ref=e222]
+            - generic [ref=e223]:
+              - link "Link to Canada" [ref=e225] [cursor=pointer]:
+                - /url: /
+                - text: Canada
+              - link "Link to Alaska" [ref=e227] [cursor=pointer]:
+                - /url: "#"
+                - text: Alaska
+              - link "Link to France" [ref=e229] [cursor=pointer]:
+                - /url: "#"
+                - text: France
+              - link "Link to Iceland" [ref=e231] [cursor=pointer]:
+                - /url: "#"
+                - text: Iceland
+          - generic [ref=e232]:
+            - heading "Our Activity" [level=3] [ref=e233]
+            - generic [ref=e234]:
+              - link "Link to Northern Lights" [ref=e236] [cursor=pointer]:
+                - /url: "#"
+                - text: Northern Lights
+              - link "Link to Cruising & Sailing" [ref=e238] [cursor=pointer]:
+                - /url: "#"
+                - text: Cruising & Sailing
+              - link "Link to Multi-activities" [ref=e240] [cursor=pointer]:
+                - /url: "#"
+                - text: Multi-activities
+              - link "Link to Kayaing" [ref=e242] [cursor=pointer]:
+                - /url: "#"
+                - text: Kayaing
+          - generic [ref=e243]:
+            - heading "Travel Blogs" [level=3] [ref=e244]
+            - generic [ref=e245]:
+              - link "Link to Bali Travel Guide" [ref=e247] [cursor=pointer]:
+                - /url: "#"
+                - text: Bali Travel Guide
+              - link "Link to Srilanka Travel Guide" [ref=e249] [cursor=pointer]:
+                - /url: "#"
+                - text: Srilanka Travel Guide
+              - link "Link to Peru Travel Guide" [ref=e251] [cursor=pointer]:
+                - /url: "#"
+                - text: Peru Travel Guide
+          - generic [ref=e252]:
+            - heading "About Us" [level=3] [ref=e253]
+            - generic [ref=e254]:
+              - link "Link to Our Story" [ref=e256] [cursor=pointer]:
+                - /url: "#"
+                - text: Our Story
+              - link "Link to Work with Us" [ref=e258] [cursor=pointer]:
+                - /url: "#"
+                - text: Work with Us
+          - generic [ref=e259]:
+            - heading "Contact" [level=3] [ref=e260]
+            - link "Link to Contact Us" [ref=e263] [cursor=pointer]:
+              - /url: "#"
+              - text: Contact Us
+      - generic [ref=e264]:
+        - text: Developed by
+        - link "Link to Github of the developer" [ref=e265] [cursor=pointer]:
+          - /url: https://github.com/mojahidhasan
+          - text: Mojahid Hasan
+      - generic [ref=e266]:
+        - text: UI design taken from
+        - link "Link to Figma Community" [ref=e267] [cursor=pointer]:
+          - /url: https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website
+          - text: Figma Community
+  - region "Notifications alt+T"
+  - alert [ref=e268]
+  - generic [ref=e570]:
+    - generic [ref=e571]:
+      - paragraph [ref=e572]: Search
+      - textbox "Search values" [ref=e574]
+      - paragraph
+    - option "Afghanistan" [ref=e575] [cursor=pointer]
+    - option "Aland Islands" [ref=e576] [cursor=pointer]
+    - option "Albania" [ref=e577] [cursor=pointer]
+    - option "Algeria" [ref=e578] [cursor=pointer]
+    - option "American Samoa" [ref=e579] [cursor=pointer]
+    - option "Andorra" [ref=e580] [cursor=pointer]
+    - option "Angola" [ref=e581] [cursor=pointer]
+    - option "Anguilla" [ref=e582] [cursor=pointer]
+    - option "Antarctica" [ref=e583] [cursor=pointer]
+    - option "Antigua and Barbuda" [ref=e584] [cursor=pointer]
+    - option "Argentina" [ref=e585] [cursor=pointer]
+    - option "Armenia" [ref=e586] [cursor=pointer]
+    - option "Aruba" [ref=e587] [cursor=pointer]
+    - option "Australia" [ref=e588] [cursor=pointer]
+    - option "Austria" [ref=e589] [cursor=pointer]
+    - option "Azerbaijan" [ref=e590] [cursor=pointer]
+    - option "Bahamas" [ref=e591] [cursor=pointer]
+    - option "Bahrain" [ref=e592] [cursor=pointer]
+    - option "Bangladesh" [ref=e593] [cursor=pointer]
+    - option "Barbados" [ref=e594] [cursor=pointer]
+    - option "Belarus" [ref=e595] [cursor=pointer]
+    - option "Belgium" [ref=e596] [cursor=pointer]
+    - option "Belize" [ref=e597] [cursor=pointer]
+    - option "Benin" [ref=e598] [cursor=pointer]
+    - option "Bermuda" [ref=e599] [cursor=pointer]
+    - option "Bhutan" [ref=e600] [cursor=pointer]
+    - option "Bolivia, Plurinational State of" [ref=e601] [cursor=pointer]
+    - option "Bosnia and Herzegovina" [ref=e602] [cursor=pointer]
+    - option "Botswana" [ref=e603] [cursor=pointer]
+    - option "Brazil" [ref=e604] [cursor=pointer]
+    - option "British Indian Ocean Territory" [ref=e605] [cursor=pointer]
+    - option "Brunei Darussalam" [ref=e606] [cursor=pointer]
+    - option "Bulgaria" [ref=e607] [cursor=pointer]
+    - option "Burkina Faso" [ref=e608] [cursor=pointer]
+    - option "Burundi" [ref=e609] [cursor=pointer]
+    - option "Cambodia" [ref=e610] [cursor=pointer]
+    - option "Cameroon" [ref=e611] [cursor=pointer]
+    - option "Canada" [ref=e612] [cursor=pointer]
+    - option "Cape Verde" [ref=e613] [cursor=pointer]
+    - option "Cayman Islands" [ref=e614] [cursor=pointer]
+    - option "Central African Republic" [ref=e615] [cursor=pointer]
+    - option "Chad" [ref=e616] [cursor=pointer]
+    - option "Chile" [ref=e617] [cursor=pointer]
+    - option "China" [ref=e618] [cursor=pointer]
+    - option "Christmas Island" [ref=e619] [cursor=pointer]
+    - option "Cocos (Keeling) Islands" [ref=e620] [cursor=pointer]
+    - option "Colombia" [ref=e621] [cursor=pointer]
+    - option "Comoros" [ref=e622] [cursor=pointer]
+    - option "Congo" [ref=e623] [cursor=pointer]
+    - option "Congo, The Democratic Republic of the Congo" [ref=e624] [cursor=pointer]
+    - option "Cook Islands" [ref=e625] [cursor=pointer]
+    - option "Costa Rica" [ref=e626] [cursor=pointer]
+    - option "Cote d'Ivoire" [ref=e627] [cursor=pointer]
+    - option "Croatia" [ref=e628] [cursor=pointer]
+    - option "Cuba" [ref=e629] [cursor=pointer]
+    - option "Cyprus" [ref=e630] [cursor=pointer]
+    - option "Czech Republic" [ref=e631] [cursor=pointer]
+    - option "Denmark" [ref=e632] [cursor=pointer]
+    - option "Djibouti" [ref=e633] [cursor=pointer]
+    - option "Dominica" [ref=e634] [cursor=pointer]
+    - option "Dominican Republic" [ref=e635] [cursor=pointer]
+    - option "Ecuador" [ref=e636] [cursor=pointer]
+    - option "Egypt" [ref=e637] [cursor=pointer]
+    - option "El Salvador" [ref=e638] [cursor=pointer]
+    - option "Equatorial Guinea" [ref=e639] [cursor=pointer]
+    - option "Eritrea" [ref=e640] [cursor=pointer]
+    - option "Estonia" [ref=e641] [cursor=pointer]
+    - option "Ethiopia" [ref=e642] [cursor=pointer]
+    - option "Falkland Islands (Malvinas)" [ref=e643] [cursor=pointer]
+    - option "Faroe Islands" [ref=e644] [cursor=pointer]
+    - option "Fiji" [ref=e645] [cursor=pointer]
+    - option "Finland" [ref=e646] [cursor=pointer]
+    - option "France" [ref=e647] [cursor=pointer]
+    - option "French Guiana" [ref=e648] [cursor=pointer]
+    - option "French Polynesia" [ref=e649] [cursor=pointer]
+    - option "Gabon" [ref=e650] [cursor=pointer]
+    - option "Gambia" [ref=e651] [cursor=pointer]
+    - option "Georgia" [ref=e652] [cursor=pointer]
+    - option "Germany" [ref=e653] [cursor=pointer]
+    - option "Ghana" [ref=e654] [cursor=pointer]
+    - option "Gibraltar" [ref=e655] [cursor=pointer]
+    - option "Greece" [ref=e656] [cursor=pointer]
+    - option "Greenland" [ref=e657] [cursor=pointer]
+    - option "Grenada" [ref=e658] [cursor=pointer]
+    - option "Guadeloupe" [ref=e659] [cursor=pointer]
+    - option "Guam" [ref=e660] [cursor=pointer]
+    - option "Guatemala" [ref=e661] [cursor=pointer]
+    - option "Guernsey" [ref=e662] [cursor=pointer]
+    - option "Guinea" [ref=e663] [cursor=pointer]
+    - option "Guinea-Bissau" [ref=e664] [cursor=pointer]
+    - option "Guyana" [ref=e665] [cursor=pointer]
+    - option "Haiti" [ref=e666] [cursor=pointer]
+    - option "Holy See (Vatican City State)" [ref=e667] [cursor=pointer]
+    - option "Honduras" [ref=e668] [cursor=pointer]
+    - option "Hong Kong" [ref=e669] [cursor=pointer]
+    - option "Hungary" [ref=e670] [cursor=pointer]
+    - option "Iceland" [ref=e671] [cursor=pointer]
+    - option "India" [ref=e672] [cursor=pointer]
+    - option "Indonesia" [ref=e673] [cursor=pointer]
+    - option "Iran, Islamic Republic of Persian Gulf" [ref=e674] [cursor=pointer]
+    - option "Iraq" [ref=e675] [cursor=pointer]
+    - option "Ireland" [ref=e676] [cursor=pointer]
+    - option "Isle of Man" [ref=e677] [cursor=pointer]
+    - option "Israel" [ref=e678] [cursor=pointer]
+    - option "Italy" [ref=e679] [cursor=pointer]
+    - option "Jamaica" [ref=e680] [cursor=pointer]
+    - option "Japan" [ref=e681] [cursor=pointer]
+    - option "Jersey" [ref=e682] [cursor=pointer]
+    - option "Jordan" [ref=e683] [cursor=pointer]
+    - option "Kazakhstan" [ref=e684] [cursor=pointer]
+    - option "Kenya" [ref=e685] [cursor=pointer]
+    - option "Kiribati" [ref=e686] [cursor=pointer]
+    - option "Korea, Democratic People's Republic of Korea" [ref=e687] [cursor=pointer]
+    - option "Korea, Republic of South Korea" [ref=e688] [cursor=pointer]
+    - option "Kuwait" [ref=e689] [cursor=pointer]
+    - option "Kyrgyzstan" [ref=e690] [cursor=pointer]
+    - option "Laos" [ref=e691] [cursor=pointer]
+    - option "Latvia" [ref=e692] [cursor=pointer]
+    - option "Lebanon" [ref=e693] [cursor=pointer]
+    - option "Lesotho" [ref=e694] [cursor=pointer]
+    - option "Liberia" [ref=e695] [cursor=pointer]
+    - option "Libyan Arab Jamahiriya" [ref=e696] [cursor=pointer]
+    - option "Liechtenstein" [ref=e697] [cursor=pointer]
+    - option "Lithuania" [ref=e698] [cursor=pointer]
+    - option "Luxembourg" [ref=e699] [cursor=pointer]
+    - option "Macao" [ref=e700] [cursor=pointer]
+    - option "Macedonia" [ref=e701] [cursor=pointer]
+    - option "Madagascar" [ref=e702] [cursor=pointer]
+    - option "Malawi" [ref=e703] [cursor=pointer]
+    - option "Malaysia" [ref=e704] [cursor=pointer]
+    - option "Maldives" [ref=e705] [cursor=pointer]
+    - option "Mali" [ref=e706] [cursor=pointer]
+    - option "Malta" [ref=e707] [cursor=pointer]
+    - option "Marshall Islands" [ref=e708] [cursor=pointer]
+    - option "Martinique" [ref=e709] [cursor=pointer]
+    - option "Mauritania" [ref=e710] [cursor=pointer]
+    - option "Mauritius" [ref=e711] [cursor=pointer]
+    - option "Mayotte" [ref=e712] [cursor=pointer]
+    - option "Mexico" [ref=e713] [cursor=pointer]
+    - option "Micronesia, Federated States of Micronesia" [ref=e714] [cursor=pointer]
+    - option "Moldova" [ref=e715] [cursor=pointer]
+    - option "Monaco" [ref=e716] [cursor=pointer]
+    - option "Mongolia" [ref=e717] [cursor=pointer]
+    - option "Montenegro" [ref=e718] [cursor=pointer]
+    - option "Montserrat" [ref=e719] [cursor=pointer]
+    - option "Morocco" [ref=e720] [cursor=pointer]
+    - option "Mozambique" [ref=e721] [cursor=pointer]
+    - option "Myanmar" [ref=e722] [cursor=pointer]
+    - option "Namibia" [ref=e723] [cursor=pointer]
+    - option "Nauru" [ref=e724] [cursor=pointer]
+    - option "Nepal" [ref=e725] [cursor=pointer]
+    - option "Netherlands" [ref=e726] [cursor=pointer]
+    - option "Netherlands Antilles" [ref=e727] [cursor=pointer]
+    - option "New Caledonia" [ref=e728] [cursor=pointer]
+    - option "New Zealand" [ref=e729] [cursor=pointer]
+    - option "Nicaragua" [ref=e730] [cursor=pointer]
+    - option "Niger" [ref=e731] [cursor=pointer]
+    - option "Nigeria" [ref=e732] [cursor=pointer]
+    - option "Niue" [ref=e733] [cursor=pointer]
+    - option "Norfolk Island" [ref=e734] [cursor=pointer]
+    - option "Northern Mariana Islands" [ref=e735] [cursor=pointer]
+    - option "Norway" [ref=e736] [cursor=pointer]
+    - option "Oman" [ref=e737] [cursor=pointer]
+    - option "Pakistan" [ref=e738] [cursor=pointer]
+    - option "Palau" [ref=e739] [cursor=pointer]
+    - option "Palestine" [ref=e740] [cursor=pointer]
+    - option "Panama" [ref=e741] [cursor=pointer]
+    - option "Papua New Guinea" [ref=e742] [cursor=pointer]
+    - option "Paraguay" [ref=e743] [cursor=pointer]
+    - option "Peru" [ref=e744] [cursor=pointer]
+    - option "Philippines" [ref=e745] [cursor=pointer]
+    - option "Pitcairn" [ref=e746] [cursor=pointer]
+    - option "Poland" [ref=e747] [cursor=pointer]
+    - option "Portugal" [ref=e748] [cursor=pointer]
+    - option "Puerto Rico" [ref=e749] [cursor=pointer]
+    - option "Qatar" [ref=e750] [cursor=pointer]
+    - option "Romania" [ref=e751] [cursor=pointer]
+    - option "Russia" [ref=e752] [cursor=pointer]
+    - option "Rwanda" [ref=e753] [cursor=pointer]
+    - option "Reunion" [ref=e754] [cursor=pointer]
+    - option "Saint Barthelemy" [ref=e755] [cursor=pointer]
+    - option "Saint Helena, Ascension and Tristan Da Cunha" [ref=e756] [cursor=pointer]
+    - option "Saint Kitts and Nevis" [ref=e757] [cursor=pointer]
+    - option "Saint Lucia" [ref=e758] [cursor=pointer]
+    - option "Saint Martin" [ref=e759] [cursor=pointer]
+    - option "Saint Pierre and Miquelon" [ref=e760] [cursor=pointer]
+    - option "Saint Vincent and the Grenadines" [ref=e761] [cursor=pointer]
+    - option "Samoa" [ref=e762] [cursor=pointer]
+    - option "San Marino" [ref=e763] [cursor=pointer]
+    - option "Sao Tome and Principe" [ref=e764] [cursor=pointer]
+    - option "Saudi Arabia" [ref=e765] [cursor=pointer]
+    - option "Senegal" [ref=e766] [cursor=pointer]
+    - option "Serbia" [ref=e767] [cursor=pointer]
+    - option "Seychelles" [ref=e768] [cursor=pointer]
+    - option "Sierra Leone" [ref=e769] [cursor=pointer]
+    - option "Singapore" [ref=e770] [cursor=pointer]
+    - option "Slovakia" [ref=e771] [cursor=pointer]
+    - option "Slovenia" [ref=e772] [cursor=pointer]
+    - option "Solomon Islands" [ref=e773] [cursor=pointer]
+    - option "Somalia" [ref=e774] [cursor=pointer]
+    - option "South Africa" [ref=e775] [cursor=pointer]
+    - option "South Sudan" [ref=e776] [cursor=pointer]
+    - option "South Georgia and the South Sandwich Islands" [ref=e777] [cursor=pointer]
+    - option "Spain" [ref=e778] [cursor=pointer]
+    - option "Sri Lanka" [ref=e779] [cursor=pointer]
+    - option "Sudan" [ref=e780] [cursor=pointer]
+    - option "Suriname" [ref=e781] [cursor=pointer]
+    - option "Svalbard and Jan Mayen" [ref=e782] [cursor=pointer]
+    - option "Swaziland" [ref=e783] [cursor=pointer]
+    - option "Sweden" [ref=e784] [cursor=pointer]
+    - option "Switzerland" [ref=e785] [cursor=pointer]
+    - option "Syrian Arab Republic" [ref=e786] [cursor=pointer]
+    - option "Taiwan" [ref=e787] [cursor=pointer]
+    - option "Tajikistan" [ref=e788] [cursor=pointer]
+    - option "Tanzania, United Republic of Tanzania" [ref=e789] [cursor=pointer]
+    - option "Thailand" [ref=e790] [cursor=pointer]
+    - option "Timor-Leste" [ref=e791] [cursor=pointer]
+    - option "Togo" [ref=e792] [cursor=pointer]
+    - option "Tokelau" [ref=e793] [cursor=pointer]
+    - option "Tonga" [ref=e794] [cursor=pointer]
+    - option "Trinidad and Tobago" [ref=e795] [cursor=pointer]
+    - option "Tunisia" [ref=e796] [cursor=pointer]
+    - option "Turkey" [ref=e797] [cursor=pointer]
+    - option "Turkmenistan" [ref=e798] [cursor=pointer]
+    - option "Turks and Caicos Islands" [ref=e799] [cursor=pointer]
+    - option "Tuvalu" [ref=e800] [cursor=pointer]
+    - option "Uganda" [ref=e801] [cursor=pointer]
+    - option "Ukraine" [ref=e802] [cursor=pointer]
+    - option "United Arab Emirates" [ref=e803] [cursor=pointer]
+    - option "United Kingdom" [ref=e804] [cursor=pointer]
+    - option "United States" [ref=e805] [cursor=pointer]
+    - option "Uruguay" [ref=e806] [cursor=pointer]
+    - option "Uzbekistan" [ref=e807] [cursor=pointer]
+    - option "Vanuatu" [ref=e808] [cursor=pointer]
+    - option "Venezuela, Bolivarian Republic of Venezuela" [ref=e809] [cursor=pointer]
+    - option "Vietnam" [ref=e810] [cursor=pointer]
+    - option "Virgin Islands, British" [ref=e811] [cursor=pointer]
+    - option "Virgin Islands, U.S." [ref=e812] [cursor=pointer]
+    - option "Wallis and Futuna" [ref=e813] [cursor=pointer]
+    - option "Yemen" [ref=e814] [cursor=pointer]
+    - option "Zambia" [ref=e815] [cursor=pointer]
+    - option "Zimbabwe" [ref=e816] [cursor=pointer]

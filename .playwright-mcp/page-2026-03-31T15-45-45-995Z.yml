@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - generic [ref=e6]:
+      - heading "404" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Page Not Found
+      - paragraph [ref=e9]: Sorry, the page you're looking for doesn't exist or has been moved. Let's take you back home.
+      - link "Go Home" [ref=e11] [cursor=pointer]:
+        - /url: /
+  - region "Notifications alt+T"
+  - alert [ref=e12]

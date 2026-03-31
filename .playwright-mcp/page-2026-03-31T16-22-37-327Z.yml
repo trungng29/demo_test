@@ -1,0 +1,214 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Find Flights" [ref=e8] [cursor=pointer]:
+          - /url: /flights
+          - img [ref=e9]
+          - generic [ref=e11]: Find Flights
+        - link "Find Hotels" [ref=e12] [cursor=pointer]:
+          - /url: /hotels
+          - img [ref=e13]
+          - generic [ref=e15]: Find Hotels
+      - link "Golob logo. Click to go to home page" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e27]:
+        - button "Favourites" [ref=e28] [cursor=pointer]:
+          - link "Favourites" [ref=e29]:
+            - /url: /user/favourites
+            - img [ref=e30]
+            - generic [ref=e32]: Favourites
+        - button "Test Playwright" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e37]: Test Playwright
+    - main [ref=e38]:
+      - navigation "breadcrumb" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Home" [ref=e42] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e43]:
+            - img [ref=e44]
+          - listitem [ref=e46]:
+            - link "flights" [ref=e47] [cursor=pointer]:
+              - /url: /flights
+          - listitem [ref=e48]:
+            - img [ref=e49]
+          - listitem [ref=e51]:
+            - link "EK0835_1774987200000" [ref=e52] [cursor=pointer]:
+              - /url: /flights/EK0835_1774987200000
+          - listitem [ref=e53]:
+            - img [ref=e54]
+          - listitem [ref=e56]:
+            - link "book" [disabled] [ref=e57]
+      - generic [ref=e58]: "Session Timeout in: 16:41"
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic "Passengers" [ref=e62] [cursor=pointer]: "1"
+          - generic [ref=e64]: Passengers
+        - generic [ref=e65]:
+          - generic "Preferences" [ref=e67] [cursor=pointer]: "2"
+          - generic [ref=e69]: Preferences
+        - generic [ref=e70]:
+          - generic "Review" [ref=e72] [cursor=pointer]: "3"
+          - generic [ref=e74]: Review
+        - generic [ref=e75]:
+          - generic "Payment" [ref=e77] [cursor=pointer]: "4"
+          - generic [ref=e78]: Payment
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e1111]:
+            - paragraph [ref=e1112]: Your booking has been reserved and will be held for a limited time. Please complete the payment within the limit to confirm and finalize your booking. After the reservation is expired, there is no guarantee that your seat will be reserved and may be taken by someone else.
+            - generic [ref=e1113]:
+              - img [ref=e1114]
+              - text: "Guaranteed reservation until:"
+          - generic [ref=e1119]:
+            - tablist [ref=e1120]:
+              - tab "Saved Payment" [ref=e1121] [cursor=pointer]
+              - tab "New Payment" [selected] [ref=e1122] [cursor=pointer]
+            - tabpanel "New Payment" [ref=e1123]
+        - generic [ref=e173]:
+          - heading "Fare Summary" [level=3] [ref=e174]
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: "Passenger Type: Adult"
+              - generic [ref=e180]:
+                - heading "1 traveler" [level=3] [ref=e181]:
+                  - button "1 traveler" [expanded] [ref=e182] [cursor=pointer]:
+                    - generic [ref=e183]: 1 traveler
+                    - img [ref=e184]
+                - region "1 traveler" [ref=e186]:
+                  - generic [ref=e188]:
+                    - generic [ref=e189]:
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: Base Fare
+                        - generic [ref=e192]:
+                          - paragraph [ref=e193]: $796.58
+                          - paragraph [ref=e194]: (1 × $796.58)
+                      - generic [ref=e195]:
+                        - generic [ref=e196]: Tax
+                        - generic [ref=e197]:
+                          - paragraph [ref=e198]: $79.66
+                          - paragraph [ref=e199]: (1 × $79.66)
+                      - generic [ref=e200]:
+                        - generic [ref=e201]: Service Fee
+                        - generic [ref=e202]:
+                          - paragraph [ref=e203]: $15.93
+                          - paragraph [ref=e204]: (1 × $15.93)
+                      - generic [ref=e205]:
+                        - generic [ref=e206]: Discount
+                        - generic [ref=e207]:
+                          - paragraph [ref=e208]: $187.36
+                          - paragraph [ref=e209]: (1 × $187.36)
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: Subtotal
+                      - generic [ref=e212]: $704.81
+            - generic [ref=e213]:
+              - generic [ref=e214]: Total
+              - generic [ref=e215]: $704.81
+    - contentinfo [ref=e216]:
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - heading "Subscribe Newsletter" [level=2] [ref=e219]
+          - heading "The Travel" [level=3] [ref=e220]
+          - paragraph [ref=e221]: Get inspired! Receive travel discounts, tips and behind the scenes stories.
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - paragraph
+              - textbox "Your email address" [ref=e226]
+              - paragraph
+            - button "Subscribe" [ref=e227] [cursor=pointer]
+        - img "mailbox" [ref=e229]
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - link "Golob logo. Click to go to home page" [ref=e233] [cursor=pointer]:
+            - /url: /
+            - img [ref=e234]
+          - generic [ref=e243]:
+            - link "Link to Facebook.com" [ref=e244] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img [ref=e245]
+            - link "Link to Twitter.com" [ref=e247] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img [ref=e248]
+            - link "Link to Youtube.com" [ref=e250] [cursor=pointer]:
+              - /url: https://www.youtube.com
+              - img [ref=e251]
+            - link "Link to Instagram.com" [ref=e254] [cursor=pointer]:
+              - /url: https://www.instagram.com
+              - img [ref=e255]
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - heading "Our Destination" [level=3] [ref=e259]
+            - generic [ref=e260]:
+              - link "Link to Canada" [ref=e262] [cursor=pointer]:
+                - /url: /
+                - text: Canada
+              - link "Link to Alaska" [ref=e264] [cursor=pointer]:
+                - /url: "#"
+                - text: Alaska
+              - link "Link to France" [ref=e266] [cursor=pointer]:
+                - /url: "#"
+                - text: France
+              - link "Link to Iceland" [ref=e268] [cursor=pointer]:
+                - /url: "#"
+                - text: Iceland
+          - generic [ref=e269]:
+            - heading "Our Activity" [level=3] [ref=e270]
+            - generic [ref=e271]:
+              - link "Link to Northern Lights" [ref=e273] [cursor=pointer]:
+                - /url: "#"
+                - text: Northern Lights
+              - link "Link to Cruising & Sailing" [ref=e275] [cursor=pointer]:
+                - /url: "#"
+                - text: Cruising & Sailing
+              - link "Link to Multi-activities" [ref=e277] [cursor=pointer]:
+                - /url: "#"
+                - text: Multi-activities
+              - link "Link to Kayaing" [ref=e279] [cursor=pointer]:
+                - /url: "#"
+                - text: Kayaing
+          - generic [ref=e280]:
+            - heading "Travel Blogs" [level=3] [ref=e281]
+            - generic [ref=e282]:
+              - link "Link to Bali Travel Guide" [ref=e284] [cursor=pointer]:
+                - /url: "#"
+                - text: Bali Travel Guide
+              - link "Link to Srilanka Travel Guide" [ref=e286] [cursor=pointer]:
+                - /url: "#"
+                - text: Srilanka Travel Guide
+              - link "Link to Peru Travel Guide" [ref=e288] [cursor=pointer]:
+                - /url: "#"
+                - text: Peru Travel Guide
+          - generic [ref=e289]:
+            - heading "About Us" [level=3] [ref=e290]
+            - generic [ref=e291]:
+              - link "Link to Our Story" [ref=e293] [cursor=pointer]:
+                - /url: "#"
+                - text: Our Story
+              - link "Link to Work with Us" [ref=e295] [cursor=pointer]:
+                - /url: "#"
+                - text: Work with Us
+          - generic [ref=e296]:
+            - heading "Contact" [level=3] [ref=e297]
+            - link "Link to Contact Us" [ref=e300] [cursor=pointer]:
+              - /url: "#"
+              - text: Contact Us
+      - generic [ref=e301]:
+        - text: Developed by
+        - link "Link to Github of the developer" [ref=e302] [cursor=pointer]:
+          - /url: https://github.com/mojahidhasan
+          - text: Mojahid Hasan
+      - generic [ref=e303]:
+        - text: UI design taken from
+        - link "Link to Figma Community" [ref=e304] [cursor=pointer]:
+          - /url: https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website
+          - text: Figma Community
+  - region "Notifications alt+T"
+  - alert [ref=e305]

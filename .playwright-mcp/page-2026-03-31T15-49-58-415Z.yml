@@ -1,0 +1,77 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e90]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e91] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - generic [ref=e14]:
+      - link "Golob logo. Click to go to home page" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - img [ref=e17]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "Sign up" [level=2] [ref=e28]
+          - paragraph [ref=e29]: Let’s get you all set up so you can access your personal account.
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - paragraph [ref=e34]: First Name *
+                - textbox "Enter your first name" [active] [ref=e36]: Test
+                - paragraph
+              - generic [ref=e37]:
+                - paragraph [ref=e38]: Last Name *
+                - textbox "Enter your last name" [ref=e40]: Playwright
+                - paragraph
+              - generic [ref=e41]:
+                - paragraph [ref=e42]: Email *
+                - textbox "Enter your email address" [ref=e44]: playwright.test@golobe.local
+                - paragraph
+              - generic [ref=e45]:
+                - paragraph [ref=e46]: Phone (optional)
+                - generic [ref=e48]:
+                  - button "+XXX" [ref=e49] [cursor=pointer]:
+                    - generic [ref=e50]: +XXX
+                    - img [ref=e51]
+                  - textbox "Enter your phone number (optional)" [ref=e53]
+                - paragraph
+              - generic [ref=e54]:
+                - paragraph [ref=e55]: Password *
+                - generic [ref=e56]:
+                  - textbox "Enter your password" [ref=e57]: TestPass123!
+                  - button "eye_on_off_icon" [ref=e59] [cursor=pointer]:
+                    - img "eye_on_off_icon" [ref=e60]
+                - paragraph
+              - generic [ref=e61]:
+                - paragraph [ref=e62]: Confirm Password *
+                - generic [ref=e63]:
+                  - textbox "Enter same password again" [ref=e64]: TestPass123!
+                  - button "eye_on_off_icon" [ref=e66] [cursor=pointer]:
+                    - img "eye_on_off_icon" [ref=e67]
+                - paragraph
+            - generic [ref=e69]:
+              - checkbox "I agree to all the Terms of Service and Privacy Policy" [ref=e70] [cursor=pointer]
+              - checkbox
+              - generic [ref=e72]:
+                - text: I agree to all the
+                - link "Terms of Service" [ref=e73] [cursor=pointer]:
+                  - /url: /terms-of-service
+                - text: and
+                - link "Privacy Policy" [ref=e74] [cursor=pointer]:
+                  - /url: /privacy-policy
+            - button "Create Account" [ref=e75] [cursor=pointer]
+          - generic [ref=e76]:
+            - text: Already have an account?
+            - link "Login" [ref=e77] [cursor=pointer]:
+              - /url: /user/login
+          - generic [ref=e79]: Or signup with
+          - generic [ref=e80]:
+            - button "facebook_icon" [ref=e82] [cursor=pointer]:
+              - img "facebook_icon" [ref=e83]
+            - button "google_icon" [ref=e85] [cursor=pointer]:
+              - img "google_icon" [ref=e86]
+            - button "apple_icon" [ref=e87] [cursor=pointer]:
+              - img "apple_icon" [ref=e88]
+  - region "Notifications alt+T"
+  - alert [ref=e92]

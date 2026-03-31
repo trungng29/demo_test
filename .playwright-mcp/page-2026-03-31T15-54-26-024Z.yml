@@ -1,0 +1,363 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: This website is still in development. Some functionalities may not be available or don't work properly. Head to this
+      - link "GitHub repository" [ref=e5] [cursor=pointer]:
+        - /url: https://github.com/mojahidhasan/golob-travel-agency-nextjs?tab=readme-ov-file#todo
+      - text: to see which functionalities are yet to develop.
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Find Flights" [ref=e8] [cursor=pointer]:
+          - /url: /flights
+          - img [ref=e9]
+          - generic [ref=e11]: Find Flights
+        - link "Find Hotels" [ref=e12] [cursor=pointer]:
+          - /url: /hotels
+          - img [ref=e13]
+          - generic [ref=e15]: Find Hotels
+      - link "Golob logo. Click to go to home page" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img [ref=e18]
+      - generic [ref=e27]:
+        - button "Favourites" [ref=e28] [cursor=pointer]:
+          - link "Favourites" [ref=e29]:
+            - /url: /user/favourites
+            - img [ref=e30]
+            - generic [ref=e32]: Favourites
+        - button "Test Playwright" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e37]: Test Playwright
+    - main [ref=e38]:
+      - navigation "breadcrumb" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Home" [ref=e42] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e43]:
+            - img [ref=e44]
+          - listitem [ref=e46]:
+            - link "flights" [ref=e47] [cursor=pointer]:
+              - /url: /flights
+          - listitem [ref=e48]:
+            - img [ref=e49]
+          - listitem [ref=e51]:
+            - link "EK0835_1774987200000" [ref=e52] [cursor=pointer]:
+              - /url: /flights/EK0835_1774987200000
+          - listitem [ref=e53]:
+            - img [ref=e54]
+          - listitem [ref=e56]:
+            - link "book" [disabled] [ref=e57]
+      - generic [ref=e58]: "Session Timeout in: 19:06"
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic "Passengers" [ref=e62] [cursor=pointer]: "1"
+          - generic [ref=e64]: Passengers
+        - generic [ref=e65]:
+          - generic "Preferences" [ref=e67] [cursor=pointer]: "2"
+          - generic [ref=e69]: Preferences
+        - generic [ref=e70]:
+          - generic "Review" [ref=e72] [cursor=pointer]: "3"
+          - generic [ref=e74]: Review
+        - generic [ref=e75]:
+          - generic "Payment" [ref=e77] [cursor=pointer]: "4"
+          - generic [ref=e78]: Payment
+      - generic [ref=e79]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - heading "Enter Passenger Details" [level=3] [ref=e83]
+            - button "Continue" [ref=e84] [cursor=pointer]
+          - generic [ref=e86]:
+            - heading "Traveler 1 ( Adult ) ( Primary )" [level=3] [ref=e87]:
+              - button "Traveler 1 ( Adult ) ( Primary )" [expanded] [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: Traveler 1 ( Adult ) ( Primary )
+                - img [ref=e90]
+            - region "Traveler 1 ( Adult ) ( Primary )" [ref=e92]:
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - paragraph [ref=e96]: First Name *
+                  - textbox "Enter your first name" [ref=e98]: Test
+                  - paragraph
+                - generic [ref=e99]:
+                  - paragraph [ref=e100]: Last Name *
+                  - textbox "Enter your last name" [ref=e102]: Playwright
+                  - paragraph
+                - generic [ref=e103]:
+                  - paragraph [ref=e104]: Date of Birth *
+                  - button "15 Jan 1990 calendar_icon" [ref=e419] [cursor=pointer]:
+                    - text: 15 Jan 1990
+                    - img "calendar_icon" [ref=e110]
+                  - paragraph
+                - generic [ref=e111]:
+                  - paragraph [ref=e112]: Passport Number *
+                  - textbox "Passport Number" [ref=e114]: A12345678
+                  - paragraph
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - paragraph [ref=e117]: Passport Expiry Date *
+                    - generic [ref=e119]:
+                      - button "dd MMM yyyy calendar_icon" [ref=e122] [cursor=pointer]:
+                        - text: dd MMM yyyy
+                        - img "calendar_icon" [ref=e123]
+                      - generic [ref=e420]:
+                        - dialog "Choose Date" [ref=e423]:
+                          - alert [ref=e424]
+                          - generic [ref=e425]:
+                            - generic [ref=e427]:
+                              - button [ref=e428] [cursor=pointer]:
+                                - img [ref=e429]
+                              - combobox [ref=e431]:
+                                - option "January"
+                                - option "February"
+                                - option "March" [selected]
+                                - option "April"
+                                - option "May"
+                                - option "June"
+                                - option "July"
+                                - option "August"
+                                - option "September"
+                                - option "October"
+                                - option "November"
+                                - option "December"
+                              - combobox [ref=e432]
+                              - button [ref=e433] [cursor=pointer]:
+                                - img [ref=e434]
+                            - table [ref=e436]:
+                              - rowgroup [ref=e437]:
+                                - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e438]:
+                                  - columnheader "Sunday" [ref=e439]: SundaySu
+                                  - columnheader "Monday" [ref=e440]: MondayMo
+                                  - columnheader "Tuesday" [ref=e441]: TuesdayTu
+                                  - columnheader "Wednesday" [ref=e442]: WednesdayWe
+                                  - columnheader "Thursday" [ref=e443]: ThursdayTh
+                                  - columnheader "Friday" [ref=e444]: FridayFr
+                                  - columnheader "Saturday" [ref=e445]: SaturdaySa
+                              - rowgroup "Month March, 2026" [ref=e446]:
+                                - row "Choose Sunday, March 1st, 2026 Choose Monday, March 2nd, 2026 Choose Tuesday, March 3rd, 2026 Choose Wednesday, March 4th, 2026 Choose Thursday, March 5th, 2026 Choose Friday, March 6th, 2026 Choose Saturday, March 7th, 2026" [ref=e447]:
+                                  - gridcell "Choose Sunday, March 1st, 2026" [ref=e448] [cursor=pointer]: "1"
+                                  - gridcell "Choose Monday, March 2nd, 2026" [ref=e449] [cursor=pointer]: "2"
+                                  - gridcell "Choose Tuesday, March 3rd, 2026" [ref=e450] [cursor=pointer]: "3"
+                                  - gridcell "Choose Wednesday, March 4th, 2026" [ref=e451] [cursor=pointer]: "4"
+                                  - gridcell "Choose Thursday, March 5th, 2026" [ref=e452] [cursor=pointer]: "5"
+                                  - gridcell "Choose Friday, March 6th, 2026" [ref=e453] [cursor=pointer]: "6"
+                                  - gridcell "Choose Saturday, March 7th, 2026" [ref=e454] [cursor=pointer]: "7"
+                                - row "Choose Sunday, March 8th, 2026 Choose Monday, March 9th, 2026 Choose Tuesday, March 10th, 2026 Choose Wednesday, March 11th, 2026 Choose Thursday, March 12th, 2026 Choose Friday, March 13th, 2026 Choose Saturday, March 14th, 2026" [ref=e455]:
+                                  - gridcell "Choose Sunday, March 8th, 2026" [ref=e456] [cursor=pointer]: "8"
+                                  - gridcell "Choose Monday, March 9th, 2026" [ref=e457] [cursor=pointer]: "9"
+                                  - gridcell "Choose Tuesday, March 10th, 2026" [ref=e458] [cursor=pointer]: "10"
+                                  - gridcell "Choose Wednesday, March 11th, 2026" [ref=e459] [cursor=pointer]: "11"
+                                  - gridcell "Choose Thursday, March 12th, 2026" [ref=e460] [cursor=pointer]: "12"
+                                  - gridcell "Choose Friday, March 13th, 2026" [ref=e461] [cursor=pointer]: "13"
+                                  - gridcell "Choose Saturday, March 14th, 2026" [ref=e462] [cursor=pointer]: "14"
+                                - row "Choose Sunday, March 15th, 2026 Choose Monday, March 16th, 2026 Choose Tuesday, March 17th, 2026 Choose Wednesday, March 18th, 2026 Choose Thursday, March 19th, 2026 Choose Friday, March 20th, 2026 Choose Saturday, March 21st, 2026" [ref=e463]:
+                                  - gridcell "Choose Sunday, March 15th, 2026" [ref=e464] [cursor=pointer]: "15"
+                                  - gridcell "Choose Monday, March 16th, 2026" [ref=e465] [cursor=pointer]: "16"
+                                  - gridcell "Choose Tuesday, March 17th, 2026" [ref=e466] [cursor=pointer]: "17"
+                                  - gridcell "Choose Wednesday, March 18th, 2026" [ref=e467] [cursor=pointer]: "18"
+                                  - gridcell "Choose Thursday, March 19th, 2026" [ref=e468] [cursor=pointer]: "19"
+                                  - gridcell "Choose Friday, March 20th, 2026" [ref=e469] [cursor=pointer]: "20"
+                                  - gridcell "Choose Saturday, March 21st, 2026" [ref=e470] [cursor=pointer]: "21"
+                                - row "Choose Sunday, March 22nd, 2026 Choose Monday, March 23rd, 2026 Choose Tuesday, March 24th, 2026 Choose Wednesday, March 25th, 2026 Choose Thursday, March 26th, 2026 Choose Friday, March 27th, 2026 Choose Saturday, March 28th, 2026" [ref=e471]:
+                                  - gridcell "Choose Sunday, March 22nd, 2026" [ref=e472] [cursor=pointer]: "22"
+                                  - gridcell "Choose Monday, March 23rd, 2026" [ref=e473] [cursor=pointer]: "23"
+                                  - gridcell "Choose Tuesday, March 24th, 2026" [ref=e474] [cursor=pointer]: "24"
+                                  - gridcell "Choose Wednesday, March 25th, 2026" [ref=e475] [cursor=pointer]: "25"
+                                  - gridcell "Choose Thursday, March 26th, 2026" [ref=e476] [cursor=pointer]: "26"
+                                  - gridcell "Choose Friday, March 27th, 2026" [ref=e477] [cursor=pointer]: "27"
+                                  - gridcell "Choose Saturday, March 28th, 2026" [ref=e478] [cursor=pointer]: "28"
+                                - row "Choose Sunday, March 29th, 2026 Choose Monday, March 30th, 2026 Choose Tuesday, March 31st, 2026 Choose Wednesday, April 1st, 2026 Choose Thursday, April 2nd, 2026 Choose Friday, April 3rd, 2026 Choose Saturday, April 4th, 2026" [ref=e479]:
+                                  - gridcell "Choose Sunday, March 29th, 2026" [ref=e480] [cursor=pointer]: "29"
+                                  - gridcell "Choose Monday, March 30th, 2026" [ref=e481] [cursor=pointer]: "30"
+                                  - gridcell "Choose Tuesday, March 31st, 2026" [ref=e482] [cursor=pointer]: "31"
+                                  - gridcell "Choose Wednesday, April 1st, 2026" [ref=e483] [cursor=pointer]: "1"
+                                  - gridcell "Choose Thursday, April 2nd, 2026" [ref=e484] [cursor=pointer]: "2"
+                                  - gridcell "Choose Friday, April 3rd, 2026" [ref=e485] [cursor=pointer]: "3"
+                                  - gridcell "Choose Saturday, April 4th, 2026" [ref=e486] [cursor=pointer]: "4"
+                        - img
+                    - paragraph
+                  - paragraph [ref=e124]: "Note: Passport must be valid for at least 6 months from the date of departure"
+                - generic [ref=e125]:
+                  - generic [ref=e126]: Country
+                  - button "select country" [ref=e127] [cursor=pointer]:
+                    - generic [ref=e128]: select country
+                    - img [ref=e129]
+                  - paragraph
+                - generic [ref=e131]:
+                  - paragraph [ref=e132]: Gender
+                  - radiogroup [ref=e133]:
+                    - generic [ref=e134]:
+                      - radio "Male" [checked] [ref=e135] [cursor=pointer]:
+                        - img [ref=e309]
+                      - radio [checked]
+                      - paragraph [ref=e136]: Male
+                    - generic [ref=e137]:
+                      - radio "Female" [ref=e138] [cursor=pointer]
+                      - radio
+                      - paragraph [ref=e139]: Female
+                - generic [ref=e140]:
+                  - heading "Frequent Flyer" [level=3] [ref=e141]
+                  - generic [ref=e142]:
+                    - paragraph [ref=e143]: Frequent Flyer Airline(If Any)
+                    - textbox "Frequent Flyer Airline" [ref=e145]
+                    - paragraph
+                  - generic [ref=e146]:
+                    - paragraph [ref=e147]: Frequent Flyer Name
+                    - textbox "Frequent Flyer Name" [ref=e149]
+                    - paragraph
+                - generic [ref=e150]:
+                  - heading "Contacts" [level=3] [ref=e151]
+                  - generic [ref=e152]:
+                    - paragraph [ref=e153]: Email *
+                    - textbox "Email" [disabled] [ref=e155]: playwright.test@golobe.local
+                    - paragraph
+                  - generic [ref=e156]:
+                    - paragraph [ref=e157]: Phone Number *
+                    - generic [ref=e159]:
+                      - button "🇦🇽 +358" [ref=e160] [cursor=pointer]:
+                        - generic [ref=e162]: 🇦🇽 +358
+                        - img [ref=e163]
+                      - textbox "Phone Number" [ref=e165]: "5551234567"
+                    - paragraph
+                - generic [ref=e167]:
+                  - checkbox "Save my details" [ref=e168] [cursor=pointer]
+                  - checkbox
+                  - paragraph [ref=e170]: Save my details
+          - button "Continue" [ref=e171] [cursor=pointer]
+        - generic [ref=e173]:
+          - heading "Fare Summary" [level=3] [ref=e174]
+          - generic [ref=e176]:
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: "Passenger Type: Adult"
+              - generic [ref=e272]:
+                - heading "1 traveler" [level=3] [ref=e273]:
+                  - button "1 traveler" [expanded] [ref=e274] [cursor=pointer]:
+                    - generic [ref=e275]: 1 traveler
+                    - img [ref=e276]
+                - region "1 traveler" [ref=e278]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]:
+                      - generic [ref=e282]:
+                        - generic [ref=e283]: Base Fare
+                        - generic [ref=e284]:
+                          - paragraph [ref=e285]: $796.58
+                          - paragraph [ref=e286]: (1 × $796.58)
+                      - generic [ref=e287]:
+                        - generic [ref=e288]: Tax
+                        - generic [ref=e289]:
+                          - paragraph [ref=e290]: $79.66
+                          - paragraph [ref=e291]: (1 × $79.66)
+                      - generic [ref=e292]:
+                        - generic [ref=e293]: Service Fee
+                        - generic [ref=e294]:
+                          - paragraph [ref=e295]: $15.93
+                          - paragraph [ref=e296]: (1 × $15.93)
+                      - generic [ref=e297]:
+                        - generic [ref=e298]: Discount
+                        - generic [ref=e299]:
+                          - paragraph [ref=e300]: $187.36
+                          - paragraph [ref=e301]: (1 × $187.36)
+                    - generic [ref=e302]:
+                      - generic [ref=e303]: Subtotal
+                      - generic [ref=e304]: $704.81
+            - generic [ref=e305]:
+              - generic [ref=e306]: Total
+              - generic [ref=e307]: $704.81
+    - contentinfo [ref=e179]:
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - heading "Subscribe Newsletter" [level=2] [ref=e182]
+          - heading "The Travel" [level=3] [ref=e183]
+          - paragraph [ref=e184]: Get inspired! Receive travel discounts, tips and behind the scenes stories.
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - paragraph
+              - textbox "Your email address" [ref=e189]
+              - paragraph
+            - button "Subscribe" [ref=e190] [cursor=pointer]
+        - img "mailbox" [ref=e192]
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - link "Golob logo. Click to go to home page" [ref=e196] [cursor=pointer]:
+            - /url: /
+            - img [ref=e197]
+          - generic [ref=e206]:
+            - link "Link to Facebook.com" [ref=e207] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img [ref=e208]
+            - link "Link to Twitter.com" [ref=e210] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img [ref=e211]
+            - link "Link to Youtube.com" [ref=e213] [cursor=pointer]:
+              - /url: https://www.youtube.com
+              - img [ref=e214]
+            - link "Link to Instagram.com" [ref=e217] [cursor=pointer]:
+              - /url: https://www.instagram.com
+              - img [ref=e218]
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - heading "Our Destination" [level=3] [ref=e222]
+            - generic [ref=e223]:
+              - link "Link to Canada" [ref=e225] [cursor=pointer]:
+                - /url: /
+                - text: Canada
+              - link "Link to Alaska" [ref=e227] [cursor=pointer]:
+                - /url: "#"
+                - text: Alaska
+              - link "Link to France" [ref=e229] [cursor=pointer]:
+                - /url: "#"
+                - text: France
+              - link "Link to Iceland" [ref=e231] [cursor=pointer]:
+                - /url: "#"
+                - text: Iceland
+          - generic [ref=e232]:
+            - heading "Our Activity" [level=3] [ref=e233]
+            - generic [ref=e234]:
+              - link "Link to Northern Lights" [ref=e236] [cursor=pointer]:
+                - /url: "#"
+                - text: Northern Lights
+              - link "Link to Cruising & Sailing" [ref=e238] [cursor=pointer]:
+                - /url: "#"
+                - text: Cruising & Sailing
+              - link "Link to Multi-activities" [ref=e240] [cursor=pointer]:
+                - /url: "#"
+                - text: Multi-activities
+              - link "Link to Kayaing" [ref=e242] [cursor=pointer]:
+                - /url: "#"
+                - text: Kayaing
+          - generic [ref=e243]:
+            - heading "Travel Blogs" [level=3] [ref=e244]
+            - generic [ref=e245]:
+              - link "Link to Bali Travel Guide" [ref=e247] [cursor=pointer]:
+                - /url: "#"
+                - text: Bali Travel Guide
+              - link "Link to Srilanka Travel Guide" [ref=e249] [cursor=pointer]:
+                - /url: "#"
+                - text: Srilanka Travel Guide
+              - link "Link to Peru Travel Guide" [ref=e251] [cursor=pointer]:
+                - /url: "#"
+                - text: Peru Travel Guide
+          - generic [ref=e252]:
+            - heading "About Us" [level=3] [ref=e253]
+            - generic [ref=e254]:
+              - link "Link to Our Story" [ref=e256] [cursor=pointer]:
+                - /url: "#"
+                - text: Our Story
+              - link "Link to Work with Us" [ref=e258] [cursor=pointer]:
+                - /url: "#"
+                - text: Work with Us
+          - generic [ref=e259]:
+            - heading "Contact" [level=3] [ref=e260]
+            - link "Link to Contact Us" [ref=e263] [cursor=pointer]:
+              - /url: "#"
+              - text: Contact Us
+      - generic [ref=e264]:
+        - text: Developed by
+        - link "Link to Github of the developer" [ref=e265] [cursor=pointer]:
+          - /url: https://github.com/mojahidhasan
+          - text: Mojahid Hasan
+      - generic [ref=e266]:
+        - text: UI design taken from
+        - link "Link to Figma Community" [ref=e267] [cursor=pointer]:
+          - /url: https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website
+          - text: Figma Community
+  - region "Notifications alt+T"
+  - alert [ref=e268]
